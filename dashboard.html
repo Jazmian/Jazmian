@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi amorcito❤️🌙</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body class="dashboard">
+    <div id="particles-js" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;"></div>
+    <!-- Botón de Hamburguesa -->
+    <button id="sidebarToggle" class="hamburger-button">
+        <i class="ri-menu-4-line"></i>
+    </button>
+    <!-- Botón de cerrar Sesion -->
+    <button id="logoutButton" title="Cerra Sesion">
+        <i class="ri-logout-circle-line"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h1 class="titulo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                fill="none">
+                <path
+                    d="M5.18007 15.2964C3.92249 16.0335 0.625213 17.5386 2.63348 19.422C3.6145 20.342 4.7071 21 6.08077 21H13.9192C15.2929 21 16.3855 20.342 17.3665 19.422C19.3748 17.5386 16.0775 16.0335 14.8199 15.2964C11.8709 13.5679 8.12906 13.5679 5.18007 15.2964Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M14 7C14 9.20914 12.2091 11 10 11C7.79086 11 6 9.20914 6 7C6 4.79086 7.79086 3 10 3C12.2091 3 14 4.79086 14 7Z"
+                    stroke="currentColor" stroke-width="1.5" />
+                <path
+                    d="M16.7612 3.27615C17.5657 2.81923 18.2679 3.00336 18.6897 3.29667C18.8626 3.41693 18.9491 3.47706 19 3.47706C19.0509 3.47706 19.1374 3.41693 19.3103 3.29667C19.7321 3.00336 20.4343 2.81923 21.2388 3.27615C22.2946 3.87582 22.5335 5.85413 20.0981 7.52315C19.6343 7.84105 19.4024 8 19 8C18.5976 8 18.3657 7.84105 17.9019 7.52315C15.4665 5.85413 15.7054 3.87582 16.7612 3.27615Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+            </svg> Mi Amor
+        </h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" class="active" >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path
+                                d="M15.0002 17C14.2007 17.6224 13.1504 18 12.0002 18C10.8499 18 9.79971 17.6224 9.00018 17"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                            <path
+                                d="M2.35157 13.2135C1.99855 10.9162 1.82204 9.76763 2.25635 8.74938C2.69065 7.73112 3.65421 7.03443 5.58132 5.64106L7.02117 4.6C9.41847 2.86667 10.6171 2 12.0002 2C13.3832 2 14.5819 2.86667 16.9792 4.6L18.419 5.64106C20.3462 7.03443 21.3097 7.73112 21.744 8.74938C22.1783 9.76763 22.0018 10.9162 21.6488 13.2135L21.3478 15.1724C20.8473 18.4289 20.5971 20.0572 19.4292 21.0286C18.2613 22 16.5538 22 13.139 22H10.8614C7.44652 22 5.73909 22 4.57118 21.0286C3.40327 20.0572 3.15305 18.4289 2.65261 15.1724L2.35157 13.2135Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg> Amorcito</a>
+                </li>
+
+  <!--<li><a href="#recuerdos">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path
+                                d="M19.4626 3.99415C16.7809 2.34923 14.4404 3.01211 13.0344 4.06801C12.4578 4.50096 12.1696 4.71743 12 4.71743C11.8304 4.71743 11.5422 4.50096 10.9656 4.06801C9.55962 3.01211 7.21909 2.34923 4.53744 3.99415C1.01807 6.15294 0.221721 13.2749 8.33953 19.2834C9.88572 20.4278 10.6588 21 12 21C13.3412 21 14.1143 20.4278 15.6605 19.2834C23.7783 13.2749 22.9819 6.15294 19.4626 3.99415Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        </svg> Detallitos</a>
+                </li>
+            -->
+                <li><a href="#mensajes">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M8.5 14.5H15.5M8.5 9.5H12" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M14.1706 20.8905C18.3536 20.6125 21.6856 17.2332 21.9598 12.9909C22.0134 12.1607 22.0134 11.3009 21.9598 10.4707C21.6856 6.22838 18.3536 2.84913 14.1706 2.57107C12.7435 2.47621 11.2536 2.47641 9.8294 2.57107C5.64639 2.84913 2.31441 6.22838 2.04024 10.4707C1.98659 11.3009 1.98659 12.1607 2.04024 12.9909C2.1401 14.536 2.82343 15.9666 3.62791 17.1746C4.09501 18.0203 3.78674 19.0758 3.30021 19.9978C2.94941 20.6626 2.77401 20.995 2.91484 21.2351C3.05568 21.4752 3.37026 21.4829 3.99943 21.4982C5.24367 21.5285 6.08268 21.1757 6.74868 20.6846C7.1264 20.4061 7.31527 20.2668 7.44544 20.2508C7.5756 20.2348 7.83177 20.3403 8.34401 20.5513C8.8044 20.7409 9.33896 20.8579 9.8294 20.8905C11.2536 20.9852 12.7435 20.9854 14.1706 20.8905Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg> Lo que siento por tí</a>
+                </li>
+
+                <li><a href="#fotos">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path
+                                d="M17 6C19.3456 6 20.0184 6 20.8263 6.61994C21.0343 6.77954 21.2205 6.96572 21.3801 7.17372C22 7.98164 22 9.15442 22 11.5V16C22 18.8284 22 20.2426 21.1213 21.1213C20.2426 22 18.8284 22 16 22H8C5.17157 22 3.75736 22 2.87868 21.1213C2 20.2426 2 18.8284 2 16V11.5C2 9.15442 2 7.98164 2.61994 7.17372C2.77954 6.96572 2.96572 6.77954 3.17372 6.61994C3.98164 6 4.65442 6 7 6"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                            <path
+                                d="M17 7L16.1142 4.78543C15.732 3.82996 15.3994 2.7461 14.4166 2.25955C13.8924 2 13.2616 2 12 2C10.7384 2 10.1076 2 9.58335 2.25955C8.6006 2.7461 8.26801 3.82996 7.88583 4.78543L7 7"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M15.5 14C15.5 15.933 13.933 17.5 12 17.5C10.067 17.5 8.5 15.933 8.5 14C8.5 12.067 10.067 10.5 12 10.5C13.933 10.5 15.5 12.067 15.5 14Z"
+                                stroke="currentColor" stroke-width="1.5" />
+                            <path d="M11.9998 6H12.0088" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg> Nuestros spoilers</a>
+                </li>
+
+                <li><a href="#musicas">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path
+                                d="M7 9.5C7 10.8807 5.88071 12 4.5 12C3.11929 12 2 10.8807 2 9.5C2 8.11929 3.11929 7 4.5 7C5.88071 7 7 8.11929 7 9.5ZM7 9.5V2C7.33333 2.5 7.6 4.6 10 5"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <circle cx="10.5" cy="19.5" r="2.5" stroke="currentColor" stroke-width="1.5" />
+                            <circle cx="20" cy="18" r="2" stroke="currentColor" stroke-width="1.5" />
+                            <path
+                                d="M13 19.5L13 11C13 10.09 13 9.63502 13.2466 9.35248C13.4932 9.06993 13.9938 9.00163 14.9949 8.86504C18.0085 8.45385 20.2013 7.19797 21.3696 6.42937C21.6498 6.24509 21.7898 6.15295 21.8949 6.20961C22 6.26627 22 6.43179 22 6.76283V17.9259"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M13 13C17.8 13 21 10.6667 22 10" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg> Nuestras Musicas</a>
+                </li>
+
+                <li><a href="#sorpresas">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path
+                                d="M4 11V15C4 18.2998 4 19.9497 5.02513 20.9749C6.05025 22 7.70017 22 11 22H13C16.2998 22 17.9497 22 18.9749 20.9749C20 19.9497 20 18.2998 20 15V11"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M3 9C3 8.25231 3 7.87846 3.20096 7.6C3.33261 7.41758 3.52197 7.26609 3.75 7.16077C4.09808 7 4.56538 7 5.5 7H18.5C19.4346 7 19.9019 7 20.25 7.16077C20.478 7.26609 20.6674 7.41758 20.799 7.6C21 7.87846 21 8.25231 21 9C21 9.74769 21 10.1215 20.799 10.4C20.6674 10.5824 20.478 10.7339 20.25 10.8392C19.9019 11 19.4346 11 18.5 11H5.5C4.56538 11 4.09808 11 3.75 10.8392C3.52197 10.7339 3.33261 10.5824 3.20096 10.4C3 10.1215 3 9.74769 3 9Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path
+                                d="M6 3.78571C6 2.79949 6.79949 2 7.78571 2H8.14286C10.2731 2 12 3.7269 12 5.85714V7H9.21429C7.43908 7 6 5.56091 6 3.78571Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path
+                                d="M18 3.78571C18 2.79949 17.2005 2 16.2143 2H15.8571C13.7269 2 12 3.7269 12 5.85714V7H14.7857C16.5609 7 18 5.56091 18 3.78571Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path d="M12 11L12 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg> Sorpresa</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Contenido Principal -->
+    <main>
+        <button id="toggleDarkMode" class="floating-button" title="Modo">
+            <i class="ri-sun-line"></i>
+        </button>
+
+        <section id="inicio" class="content-section active">
+            <h2>¡Bienvenida Mi Amor!</h2>
+            <p id="daysCount"></p> <!-- Aquí se mostrará el conteo de días --> <br>
+            <h2>Estos son solo nuestras primeras fotitos, nos faltan muchas mi amorcito❤️🌙:</h2>
+
+            <!-- Galería de Fotos -->
+            <div class="gallery">
+                <!-- Foto 1 -->
+                <div class="gallery-item">
+                    <img src="assets/img/Jaz5.jpeg"
+                        alt="Descripción de la foto 1">
+                    <div class="gallery-description">
+                        <p>Nuestra primera foto juntos ❤️</p>
+                    </div>
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="gallery-item">
+                    <img src="assets/img/Jaz6.jpeg"
+                        alt="Descripción de la foto 2">
+                    <div class="gallery-description">
+                        <p>Las fiestas juntos💌</p>
+                    </div>
+                </div>
+
+                <!-- Foto 3 -->
+                <div class="gallery-item">
+                    <img src="assets/img/Jaz3.jpeg"
+                        alt="Descripción de la foto 3">
+                    <div class="gallery-description">
+                        <p>Primera vez juntos en tu cumpleaños 🎉</p>
+                    </div>
+                </div>
+                <!-- Foto 1 -->
+                <div class="gallery-item">
+                    <img src="assets/img/Jaz1.jpeg"
+                        alt="Descripción de la foto 1">
+                    <div class="gallery-description">
+                        <p>Playa ❤️</p>
+                    </div>
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="gallery-item">
+                    <img src="assets/img/Jaz2.jpeg"
+                        alt="Descripción de la foto 2">
+                    <div class="gallery-description">
+                        <p>Parque 🌳</p>
+                    </div>
+                </div>
+
+                <!-- Foto 3 -->
+                <div class="gallery-item">
+                    <img src="assets/img/Jaz7.jpeg"
+                        alt="Descripción de la foto 3">
+                    <div class="gallery-description">
+                        <p>Parque de las aguas ❤️</p>
+                    </div>
+                </div>
+
+
+
+                <div class="gallery-item">
+                    <img src="assets/img/j1.jpeg"
+                        alt="Descripción de la foto 2">
+                    <div class="gallery-description">
+                        <p>En tu cumpleaños mi amor ❤️🌙</p>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item">
+                    <img src="assets/img/Jaz8.jpeg"
+                        alt="Descripción de la foto 2">
+                    <div class="gallery-description">
+                        <p>Fotito con el amor de mi vida❤️🌙</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="recuerdos" class="content-section">
+            <h2>Nuestros Detallitos</h2>
+            <p>Aqui se encuentran todos nuestros detalles hechos hasta al momento con mucho amorcito</p>
+            <!-- Línea de Tiempo -->
+            <div class="timeline">
+                <div class="timeline-event">
+                    <h3>Primera Cita</h3>
+                    <p>15 de marzo de 2020</p>
+                    <img src="https://img.fotocommunity.com/love-e336bfd1-7a9b-43a4-9b68-3bec419632db.jpg?width=1000"
+                        alt="Primera cita">
+                    <p>Nuestra primera cita fue en un pequeño café del centro. ¡No podíamos parar de reír!</p>
+                </div>
+                <div class="timeline-event">
+                    <h3>Viaje a la Playa</h3>
+                    <p>20 de julio de 2021</p>
+                    <img src="https://img.fotocommunity.com/love-e336bfd1-7a9b-43a4-9b68-3bec419632db.jpg?width=1000"
+                        alt="Viaje a la playa">
+                    <p>Disfrutamos del sol, el mar y las noches estrelladas. ¡Un viaje inolvidable!</p>
+                </div>
+            </div>
+
+            <!-- Galería de Fotos -->
+            <h3>Recuerdos</h3>
+            <div class="gallery">
+                <img src="https://img.fotocommunity.com/love-e336bfd1-7a9b-43a4-9b68-3bec419632db.jpg?width=1000"
+                    alt="Recuerdo 1">
+                <img src="https://img.fotocommunity.com/love-e336bfd1-7a9b-43a4-9b68-3bec419632db.jpg?width=1000"
+                    alt="Recuerdo 2">
+                <img src="https://img.fotocommunity.com/love-e336bfd1-7a9b-43a4-9b68-3bec419632db.jpg?width=1000"
+                    alt="Recuerdo 3">
+
+                  
+            </div>
+            
+
+        </section>
+
+
+
+        <section id="mensajes" class="content-section">
+            <h2>Mensajes que amorcito ño debe olvidar</h2>
+            <div class="mensaje-container">
+                <p id="mensaje-texto">hoalaa</p>
+                <button id="nuevo-mensaje-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path
+                            d="M12.5 2.01175C12.3344 2.00395 12.1677 2 12 2C6.47778 2 2 6.28357 2 11.5667C2 14.1051 3.03333 16.4115 4.71889 18.1231C5.09 18.5 5.33778 19.0148 5.23778 19.5448C5.07275 20.4112 4.69874 21.2194 4.15111 21.893C5.59195 22.161 7.09014 21.9197 8.37499 21.2364C8.82918 20.9949 9.05627 20.8741 9.21653 20.8496C9.37678 20.8251 9.60633 20.8682 10.0654 20.9545C10.7032 21.0742 11.3507 21.1343 12 21.1334C17.5222 21.1334 22 16.8499 22 11.5667C22 11.3765 21.9942 11.1875 21.9827 11"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M15 5.5H22M18.5 2L18.5 9" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M11.9955 12H12.0045M15.991 12H16M8 12H8.00897" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg> Te amo❤️🌙</button>
+            </div>
+        </section>
+
+        <section id="fotos" class="content-section">
+            <h2>Nuestros Spoilers🌙</h2>
+            <p>Estos son solo algunos de los spoilers fabulosos que hemos pasado y aun nos faltan muchos por vivir juntos mi amor❤️🌙</p>
+
+            <div class="collage-container">
+                <div class="collage-item">
+                    <img src="assets/img/s1.jpeg"
+                        alt="Construyendo casitas de lego">
+                    <div class="overlay">
+                        <p>Contruyendo Casitas de Lego</p>
+                    </div>
+                </div>
+                <div class="collage-item">
+                    <img src="assets/img/s2.jpeg"
+                        alt="Nuestros minilegos">
+                    <div class="overlay">
+                        <p>Nuestras Minifiguras de Legos</p>
+                    </div>
+                </div>
+                <div class="collage-item">
+                    <img src="assets/img/S4.jpeg"
+                        alt="Moana2">
+                    <div class="overlay">
+                        <p>Viendo Moana2</p>
+                    </div>
+                </div>
+                <div class="collage-item">
+                    <img src="assets/img/S8.jpeg"
+                        alt="Plato">
+                    <div class="overlay">
+                        <p>Jugando Plato</p>
+                    </div>
+                </div>
+
+
+                <div class="collage-item">
+                    <img src="assets/img/SS3.jpeg"
+                        alt="Pulseras">
+                    <div class="overlay">
+                        <p>Nuestras Pulseras Permanentes</p>
+                    </div>
+                </div>
+
+
+                <div class="collage-item">
+                    <img src="assets/img/SS4.jpeg"
+                        alt="Sush">
+                    <div class="overlay">
+                        <p>Nuestro Sush Jazmian</p>
+                    </div>
+                </div>
+
+
+                <div class="collage-item">
+                    <img src="assets/img/S7.jpeg"
+                        alt="Pulseras">
+                    <div class="overlay">
+                        <p>Nuestras pulseras❤️</p>
+                    </div>
+                </div>
+
+
+        
+
+
+            
+
+ 
+
+
+
+
+                <div class="collage-item">
+                    <img src="assets/img/SS2.jpeg"
+                        alt="Legos">
+                    <div class="overlay">
+                        <p>Armando Legos de perritos</p>
+                    </div>
+                </div>
+
+                <div class="collage-item">
+                    <img src="assets/img/SS5.jpeg"
+                        alt="Intensamente">
+                    <div class="overlay">
+                        <p>Viendo intensamente 2</p>
+                    </div>
+                </div>
+                <!-- Agrega más imágenes según sea necesario -->
+            </div>
+        </section>
+
+        <section id="musicas" class="content-section">
+            <h2>Estas son canciones que significan mucho para nosotros mi amor❤️🌙</h2>
+            <p>En estas melodías podemos expresar lo que sentimos por ambos y lo que significas para mí</p>
+
+            <div class="music-container">
+                <div class="music-card">
+                    <div class="music-image">
+                        <img src="assets/img/Jaz6.jpeg"
+                            alt="Portada del álbum">
+                    </div>
+                    <div class="music-info">
+                        
+                        <h3>Taylor Swift - Lover </h3>
+                        <p><b>Te amo</b></p>
+                    
+                        <p>Esta canción es especial para mi ya que amorcito me la dedico cuando aun nos estabamos conociendo, Amorcito mi lover ❤️🌙</p>
+                  
+                        
+                  
+                    </div>
+                    <div class="music-controls">
+                        <audio controls>
+                            <source src="assets/music/lover.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+                <div class="music-card">
+                    <div class="music-image">
+                        <img src="assets/img/Jaz3.jpeg"
+                            alt="Portada del álbum">
+                    </div>
+                    <div class="music-info">
+                        <h3>A dónde vamos - Morat</h3>
+                        <p><b>Hasta</b></p>
+                        <p>Esta es nuestra canción, la conexión y el cariño que sentimos por uno al otro es la sensación mas hermosa mi amor❤️🌙</p>
+                    </div>
+                    <div class="music-controls">
+                        <audio controls>
+                            <source src="assets/music/morat.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+                <div class="music-card">
+                    <div class="music-image">
+                        <img src="assets/img/Jaz2.jpeg"
+                            alt="Portada del álbum">
+                    </div>
+                    <div class="music-info">
+                        <h3>Veo en ti la luz</h3>
+                        <p><b>La Luna</b></p>
+                        <p>Se que es una de tus princesas favoritas y la canción describe lo que siento por ti y lo que me haces sentir, en ti veo luz ❤️🌙</p>
+                    </div>
+                    <div class="music-controls">
+                        <audio controls>
+                            <source src="assets/music/rapunzelt.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+                <div class="music-card">
+                    <div class="music-image">
+                        <img src="assets/img/Jaz5.jpeg"
+                            alt="Portada del álbum">
+                    </div>
+                    <div class="music-info">
+                        <h3>DUKI - Ameri</h3>
+                        <p><b>❤️🌙</b></p>
+                        <p>Tu eres mi Ameri, eres de las personas que me motiva a ser mejor cada día y a poder cumplir todos nuestros spoilers mi amor</p>
+                    </div>
+                    <div class="music-controls">
+                        <audio controls>
+                            <source src="assets/music/Ameri.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sorpresas" class="content-section">
+            <h2>Para Mi Amada Enamorada </h2>
+            <p>Tengo una pregunta que hacer mi Amor</p>
+
+            <!-- Contenedor de la sorpresa -->
+            <div class="sorpresa-container">
+                <button id="sorpresa-btn" class="sorpresa-btn"><i class="ri-star-smile-line"></i> ¡¿Te gustaría...?!</button>
+                <div id="sorpresa-content" class="sorpresa-content hidden">
+                  
+                    <video id="sorpresa-video" width="100%" controls>
+                    <source src="assets/Videos/jaz.mp4" type="video/mp4" alt="Sorpresa">
+                </video>
+
+                <div id="sorpresa-content" class="sorpresa-content hidden">
+                    <video id="sorpresa-video" width="100%" controls>
+                        <source src="assets/Videos/jaz.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+
+                    <p>¡Quieres ser mi San Valentin! 🎉</p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <script src="script/dashboard.js"></script>
+</body>
+
+</html>
